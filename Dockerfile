@@ -1,4 +1,4 @@
-FROM node:12-slim
+FROM node:14-buster
 
 WORKDIR /starter
 ENV NODE_ENV development
