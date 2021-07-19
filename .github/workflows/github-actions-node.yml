@@ -30,6 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Docker Build and Push
     steps:
+      - uses: actions/checkout@v2
       - name: Build and push
         id: docker_build
         uses: mr-smithers-excellent/docker-build-push@v5
